@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --dark-grey: #0a0a23;
+  --light-grey: #f5f6f7;
+  --white: #ffffff;
+  --black: #000;
+}
+
+body {
+ background-image: url("https://raw.githubusercontent.com/quotakiller/Player-card-Project/main/120180.jpeg");
+  text-align: center;
+  padding: 0px;
+  margin: 0; 
+background-position: center;
+background-size: cover;
+height: 100vh;
+justify-content: center;
+align-items: center;
+scroll-behavior: smooth;
+}
+
+.title,
+.options-label,
+.team-stats,
+footer {
+  color: var(--white);
+  font-family: copperplate, fantasy;
+  font-size: 50px;
+}
+
+.title {
+  margin: 1.3rem 0;
+}
+
+.team-stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 1.3rem;
+  margin: 1.2rem 0;
+}
+
+.options-label {
+  font-size: 1.2rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.player-card {
+  background-color: rgba(255,255,255,0.1);
+  box-shadow: 5px 5px 30px rgba(0,0,0,0.5);
+  color: #ffffff;
+  padding: 1.3rem;
+  margin: 1.2rem;
+  width: 300px;
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+.player-card:hover {
+    background-color: white;
+    color: black;
+}
+
+
+@media (max-width: 768px) {
+    .team-stats {
+      flex-direction: column;
+    }
+  }
+  

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Learn Modern JavaScript methods by building football team cards
+    </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="title">Chelsea F.C. 2012 Champions League Squad</h1>
+    <main>
+      <div class="team-stats">
+        <p>Team: <span id="team"></span></p>
+        <p>Sport: <span id="sport"></span></p>
+        <p>Year: <span id="year"></span></p>
+        <p>Head Coach: <span id="head-coach"></span></p>
+      </div>
+      <label class="options-label" for="players">Filter By Positions:</label>
+      <select name="players" id="players">
+        <option value="all">All Players</option>
+        <option value="forward">Forwards</option>
+        <option value="midfielder">Midfielders</option>
+        <option value="defender">Defenders</option>
+        <option value="goalkeeper">Goalkeepers</option>
+        <option value="nickname">Nicknames</option>
+      </select>
+
+      <div class="cards" id="player-cards">
+        <div class="player-card">
+          <h2>John Obi Mikel</h2>
+          <p>Position: midfielder</p>
+          <p>Number: 12</p>
+          <p>Nickname: Obi Wan</p>
+        </div>
+        <div class="player-card">
+          <h2>John Terry (Captain)</h2>
+          <p>Position: defender</p>
+          <p>Number: 26</p>
+          <p>Nickname: JT</p>
+        </div>
+        <div class="player-card">
+          <h2>Michael Essien</h2>
+          <p>Position: midfielder</p>
+          <p>Number: 5</p>
+          <p>Nickname: The Bison</p>
+        </div>
+        <div class="player-card">
+          <h2>Ramires</h2>
+          <p>Position: midfielder</p>
+          <p>Number: 7</p>
+          <p>Nickname: Rambo</p>
+        </div>
+        <div class="player-card">
+          <h2>Juan Mata</h2>
+          <p>Position: midfielder</p>
+          <p>Number: 10</p>
+          <p>Nickname: The Wizard</p>
+        </div>
+        <div class="player-card">
+          <h2>Didier Drogba</h2>
+          <p>Position: forward</p>
+          <p>Number: 11</p>
+          <p>Nickname: Tito</p>
+        </div>
+        <div class="player-card">
+          <h2>Salomon Kalou</h2>
+          <p>Position: forward</p>
+          <p>Number: 21</p>
+          <p>Nickname: K2</p>
+        </div>
+        <div class="player-card">
+          <h2>Fernando Torres</h2>
+          <p>Position: forward</p>
+          <p>Number: 9</p>
+          <p>Nickname: El Nino</p>
+        </div>
+        <div class="player-card">
+            <h2>(Vice-Captain) Frank Lampard</h2>
+            <p>Position: midfielder</p>
+            <p>Number: 8</p>
+            <p>Nickname: Lampsey</p>
+        </div>
+        <div class="player-card">
+          <h2>Daniel Sturridge</h2>
+          <p>Position: forward</p>
+          <p>Number: 23</p>
+          <p>Nickname: Studger</p>
+        </div>
+        <div class="player-card">
+          <h2>Flourent Malouda</h2>
+          <p>Position: Forward</p>
+          <p>Number: 15</p>
+          <p>Nickname: Fearless Dog</p>
+        </div>
+        <div class="player-card">
+          <h2>Oriol Romeu</h2>
+          <p>Position: midfielder</p>
+          <p>Number: 6</p>
+          <p>Nickname: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Paulo Ferreira</h2>
+          <p>Position: defender</p>
+          <p>Number: 19</p>
+          <p>Nickname: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Branislav Ivanovic</h2>
+          <p>Position: defender</p>
+          <p>Number: 2</p>
+          <p>Nickname: Bane</p>
+        </div>
+        <div class="player-card">
+          <h2>David Luiz</h2>
+          <p>Position: defender</p>
+          <p>Number: 4</p>
+          <p>Nickname: Sideshow Bob</p>
+        </div>
+        <div class="player-card">
+          <h2>Ashley Cole</h2>
+          <p>Position: defender</p>
+          <p>Number: 3</p>
+          <p>Nickname: Cashley</p>
+        </div>
+        <div class="player-card">
+          <h2>Gary Cahill</h2>
+          <p>Position: defender</p>
+          <p>Number: 24</p>
+          <p>Nickname: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Jose Bosingwa</h2>
+          <p>Position: defender</p>
+          <p>Number: 17</p>
+          <p>Nickname: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Ryan Bertrand</h2>
+          <p>Position: midfielder</p>
+          <p>Number: 34</p>
+          <p>Nickname: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Ross Turnbull</h2>
+          <p>Position: goalkeeper</p>
+          <p>Number: 22</p>
+          <p>Nickname: N/A</p>
+        </div>
+        <div class="player-card">
+            <h2>Petr čech</h2>
+            <p>Position: goalkeeper</p>
+            <p>Number: 1</p>
+            <p>Nickname: N/A</p>
+          </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
